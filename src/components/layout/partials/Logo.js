@@ -18,14 +18,17 @@ const Logo = ({
       {...props}
       className={classes}
     >
-      <h1 className="m-0">
-        <Link to="/">
-          <Image
+      <h1 style={{}}>
+ <Link to="/">
+          
+     {/*      <Image
             src={require('./../../../assets/images/Icon-196.png')}
             alt="Open"
-            width={60}
-            height={60}
+            width={55}
+            height={55}
             />
+          */}
+        <p style={{"width":"auto", "fontSize":"0.9rem", "margin-top": "2vh"}}>AMORIS | SOS UnB</p>
         </Link>
       </h1>
     </div>

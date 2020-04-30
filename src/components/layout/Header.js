@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
+import Unb from "./partials/Unb";
+
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -88,6 +90,7 @@ const Header = ({
           )}
         >
           <Logo />
+          <Unb />
           {!hideNav && (
             <>
               <button
@@ -113,9 +116,6 @@ const Header = ({
                   >
                     <a href="https://www.unb.br/" onClick={closeMenu}>
                       UnB
-                    </a>
-                    <a href="http://www.ene.unb.br/" onClick={closeMenu}>
-                      ENE
                     </a>
                     <a href="https://www.latitude.unb.br" onClick={closeMenu}>
                       LATITUDE
