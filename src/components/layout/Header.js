@@ -121,7 +121,7 @@ const Header = ({
                       LATITUDE
                     </a>
                     <a>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/equipe" onClick={closeMenu}>
                         Equipe
                       </Link>
                     </a>

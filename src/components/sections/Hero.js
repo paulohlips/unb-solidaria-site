@@ -26,6 +26,7 @@ const Hero = ({
 }) => {
 
   const [videoModalActive, setVideomodalactive] = useState(false);
+  const [EquipeModalActive, setEquipemodalactive] = useState(false);
 
   const openModal = (e) => {
     e.preventDefault();
@@ -35,7 +36,17 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  } 
+  
+  const openEquipeModal = (e) => {
+    e.preventDefault();
+    setEquipemodalactive(true);
+  }
+
+  const closeEquipeModal = (e) => {
+    e.preventDefault();
+    setEquipemodalactive(false);
+  } 
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -98,6 +109,12 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
+            video="'./../../assets/images/Materia-Jornal-DF2.mp4"
+            videoTag="iframe" />
+          <Modal
+            id="equipe-modal"
+            show={EquipeModalActive}
+            handleClose={closeEquipeModal}
             video="'./../../assets/images/Materia-Jornal-DF2.mp4"
             videoTag="iframe" />
         </div>
