@@ -51,17 +51,6 @@ const Equipe = ({ className }) => {
                     <span>ENE/FT/UNB</span>
                 </div>
 
-                <div class="profile">
-                    <Image
-                        src={require("./../../../assets/images/lucas_coelho.jpg")}
-                        alt="Hero"
-                        width={100}
-                        height={200}
-                    />
-                    <span>Lucas Coelho</span>
-                    <span>Mestrando em Eng. de Redes</span>
-                    <span>ENE/FT/UNB</span>
-                </div>
 
                 <div class="profile">
                     <Image
@@ -74,6 +63,20 @@ const Equipe = ({ className }) => {
                     <span>Graduando em Eng. de Redes</span>
                     <span>ENE/FT/UNB</span>
                 </div>
+
+                <div class="profile">
+                    <Image
+                        src={require("./../../../assets/images/lucas_coelho.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>Lucas Coelho</span>
+                    <span>Mestrando em Eng. de Redes</span>
+                    <span>ENE/FT/UNB</span>
+                </div>
+
+
 
                 <div class="profile">
                     <Image
