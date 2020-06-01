@@ -47,7 +47,7 @@ const Equipe = ({ className }) => {
                         height={200}
                     />
                     <span>Paulo Henrique Ferreira</span>
-                    <span>Mestrando em Eng. de Redes</span>
+                    <span>Mestrando em Eng. de Elétrica</span>
                     <span>ENE/FT/UNB</span>
                 </div>
 
@@ -60,7 +60,7 @@ const Equipe = ({ className }) => {
                         height={200}
                     />
                     <span>André C. Ribeiro </span>
-                    <span>Graduando em Eng. Elétrica</span>
+                    <span>Graduando em Eng. Redes</span>
                     <span>ENE/FT/UNB</span>
                 </div>
 
