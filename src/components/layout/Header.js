@@ -125,6 +125,11 @@ const Header = ({
                         Equipe
                       </Link>
                     </a>
+                    <a>
+                      <Link to="/projeto" onClick={closeMenu}>
+                        Projeto
+                      </Link>
+                    </a>
                   </ul>
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right"></ul>
