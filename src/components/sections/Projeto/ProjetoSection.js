@@ -27,8 +27,7 @@ const Projeto = ({ className }) => {
                 <div class="text-image">   
                     <p class="text-info recuo-imagem"> 
                          O SOS-UnB inclui 4 funcionalidades principais as quais estão expostas no 
-                         esquemático ao lado (incluir esquemático). Na opção “Voluntarie-se”, caso
-                          possua uma matrícula ativana Universidade de Brasília (UnB), o usuário já cadastrado no aplicativo pode oferecer serviços voluntários. Esses serviços podem ser desde idas ao mercado até uma orientaçãoem uma área de conhecimento especifica. 
+                         esquemático ao lado. Na opção “Voluntarie-se”, caso possua uma matrícula ativana Universidade de Brasília (UnB), o usuário já cadastrado no aplicativo pode oferecer serviços voluntários. Esses serviços podem ser desde idas ao mercado até uma orientaçãoem uma área de conhecimento especifica.     
                     </p>
                     <div class="profile">
                     <Image
@@ -52,17 +51,8 @@ const Projeto = ({ className }) => {
 
                 <p class="text-info recuo"> 
                    Além disso, o aplicativo conta com a funcionalidade “Botão de Emergência”, para uso exclusivo no campus da UnB. Se uma pessoa se encontra em uma situação de risco ou ameaça ela pode acionar essa função apenas agitando o dispositivo no qual o SOS-UnB está instalado e a segurança do campus receberá as informações de geolocalização da vítima.
-
+                   Por fim, o projeto inclui ainda links de acesso a sites com informações seguras a respeito da evolução do Covid-19 no Distrito Federal.
                 </p>
-
-                <p>
-                    Por fim, o projeto inclui ainda links de acesso a sites com informações seguras a respeito da evolução do Covid-19 no Distrito Federal.
-
-                </p>
-
-     
-       
-               
           
         </section>
     );

@@ -65,6 +65,18 @@ const Equipe = ({ className }) => {
 
                 <div class="profile">
                     <Image
+                        src={require("./../../../assets/images/andre.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>André C. Ribeiro </span>
+                    <span>Graduando em Eng. de Redes</span>
+                    <span>ENE/FT/UNB</span>
+                </div>
+
+                <div class="profile">
+                    <Image
                         src={require("./../../../assets/images/nayara.jpg")}
                         alt="Hero"
                         width={100}
