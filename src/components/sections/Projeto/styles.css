@@ -14,9 +14,15 @@ p {
     margin-left: 60px;
     margin-right: 60px;
 }
-.recuo { 
-    text-indent:4em 
-]}
+
+.recuo {
+    text-indent: 4em;
+}
+
+.recuo-imagem {
+    text-indent: 4em;
+    width: 30%;
+}
 
 .profiles-container {
     display: flex;
@@ -38,4 +44,11 @@ span {
     color: #ffffff;
     font-size: medium;
     padding: 0vh -10vh;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }

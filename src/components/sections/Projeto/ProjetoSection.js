@@ -22,19 +22,22 @@ const Projeto = ({ className }) => {
                      ideia central do SOS-UnB é ajudar a comunidade acadêmica nesse período de isolamento, conectando pessoas que precisam de ajuda com quem está disposto a ofereceralgum tipo de serviço voluntário e ainda oferecer mecanismos de segurança e socorro a seus usuários. A aplicação conta com centrais de comando e controle que funcionamcomo painéis para recebimento dos dois tipos de pedido de socorro: os que chegam via botão de emergência de usuários dentro do campus da universidade que sintam em umasituação de risco e as solicitações de emergências de saúde.
                 </p>
             <div class="profiles-container">
-                <div class="profile">
-                    <Image
-                        //src={require("./../../../assets/images/esquema1.png")}
-                        alt="Hero"
-                        width={100}
-                        height={200}
-                    />
-                </div>
+
                
-                <div>   
-                    <p class="text-info recuo"> 
-                         O SOS-UnB inclui 4 funcionalidades principais as quais estão expostas no esquemático ao lado (incluir esquemático). Na opção “Voluntarie-se”, caso possua uma matrícula ativana Universidade de Brasília (UnB), o usuário já cadastrado no aplicativo pode oferecer serviços voluntários. Esses serviços podem ser desde idas ao mercado até uma orientaçãoem uma área de conhecimento especifica. 
-                    </p>                 
+                <div class="text-image">   
+                    <p class="text-info recuo-imagem"> 
+                         O SOS-UnB inclui 4 funcionalidades principais as quais estão expostas no 
+                         esquemático ao lado (incluir esquemático). Na opção “Voluntarie-se”, caso
+                          possua uma matrícula ativana Universidade de Brasília (UnB), o usuário já cadastrado no aplicativo pode oferecer serviços voluntários. Esses serviços podem ser desde idas ao mercado até uma orientaçãoem uma área de conhecimento especifica. 
+                    </p>
+                    <div class="profile">
+                    <Image
+                        src={require("../../../assets/images/esquema1.png")}
+                        alt="Hero"
+                        width={800}
+                        height={600}
+                    />
+                </div>                           
                 </div>
             </div>
                 <p class="text-info recuo"> 
@@ -57,24 +60,10 @@ const Projeto = ({ className }) => {
 
                 </p>
 
-            <div class="profiles-container">
-                <div class="profile">
-                    <Image
-                        //src={require("./../../../assets/images/paulo.png")}
-                        alt="Hero"
-                        width={100}
-                        height={200}
-                    />
-                <div>               
-                </div>
-                    
-                    <span>Paulo Henrique Ferreira</span>
-                    <span>Engenheiro de Redes</span>
-                    <span>ENE/FT/UNB</span>
-                </div>
+     
+       
                
-                
-            </div>
+          
         </section>
     );
 };
