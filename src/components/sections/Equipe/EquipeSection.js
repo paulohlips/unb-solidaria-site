@@ -60,7 +60,7 @@ const Equipe = ({ className }) => {
                         height={200}
                     />
                     <span>André C. Ribeiro </span>
-                    <span>Graduando em Eng. de Redes</span>
+                    <span>Graduando em Eng. Elétrica</span>
                     <span>ENE/FT/UNB</span>
                 </div>
 
@@ -72,7 +72,7 @@ const Equipe = ({ className }) => {
                         height={200}
                     />
                     <span>Lucas Coelho</span>
-                    <span>Mestrando em Eng. de Redes</span>
+                    <span>Mestrando em Eng. Elétrica</span>
                     <span>ENE/FT/UNB</span>
                 </div>
 
