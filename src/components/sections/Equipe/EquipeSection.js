@@ -14,15 +14,28 @@ const Equipe = ({ className }) => {
                 </h3>
             </div>
             <div class="profiles-container">
+               
                 <div class="profile">
-                    <Image
-                        src={require("./../../../assets/images/profile.png")}
+                     <Image
+                        src={require("./../../../assets/images/timoteo.jpg")}
                         alt="Hero"
                         width={100}
                         height={200}
                     />
-                    <span>Paulo Henrique Ferreira</span>
-                    <span>Engenheiro de Redes</span>
+                    <span>Rafael T. de Sousa Júnior </span>
+                    <span>Prof.Dr. Adjunto</span>
+                    <span>ENE/FT/UNB</span>
+                </div>
+
+                <div class="profile">
+                    <Image
+                        src={require("./../../../assets/images/francisco.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>Francisco Caldas </span>
+                    <span>Doutorando em Eng. Elétrica</span>
                     <span>ENE/FT/UNB</span>
                 </div>
 
@@ -34,7 +47,67 @@ const Equipe = ({ className }) => {
                         height={200}
                     />
                     <span>Paulo Henrique Ferreira</span>
-                    <span>Engenheiro de Redes</span>
+                    <span>Mestrando em Eng. de Redes</span>
+                    <span>ENE/FT/UNB</span>
+                </div>
+
+                <div class="profile">
+                    <Image
+                        src={require("./../../../assets/images/lucas_coelho.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>Lucas Coelho</span>
+                    <span>Mestrando em Eng. de Redes</span>
+                    <span>ENE/FT/UNB</span>
+                </div>
+
+                <div class="profile">
+                    <Image
+                        src={require("./../../../assets/images/andre.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>André C. Ribeiro </span>
+                    <span>Graduando em Eng. de Redes</span>
+                    <span>ENE/FT/UNB</span>
+                </div>
+
+                <div class="profile">
+                    <Image
+                        src={require("./../../../assets/images/nayara.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>Nayara Silva</span>
+                    <span>Graduanda em Ciencia da Computação</span>
+                    <span>CIC/UNB</span>
+                </div>
+
+                <div class="profile">
+                    <Image
+                        src={require("./../../../assets/images/natalia.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>Natália A. Marques</span>
+                    <span>Graduanda em Eng. de Redes</span>
+                    <span>ENE/FT/UNB</span>
+                </div>
+
+                <div class="profile">
+                    <Image
+                        src={require("./../../../assets/images/leonardo.jpg")}
+                        alt="Hero"
+                        width={100}
+                        height={200}
+                    />
+                    <span>Leonardo O. Almeida</span>
+                    <span>Graduando em Eng. de Redes</span>
                     <span>ENE/FT/UNB</span>
                 </div>
             </div>
