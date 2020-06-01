@@ -14,7 +14,7 @@ const Projeto = ({ className }) => {
                 </h3>
             </div>
                 <p class="text-info recuo">  
-                    O projeto SOS-UnB (ou UnB Solidária? Ou Amoris?) é uma iniciativa do Laboratório UIoT - Universal Internet of Things (ENE/FT/UnB), coordenado pelo professor Rafael Timóteo. A aplicação dispõe de funcionalidades para auxiliar a comunidade acadêmica no período de isolamento social com serviços como acesso direto a canais com informações confiáveis a respeito do desenvolvimento do Covid-19, a obteção de diversos tipos de ajuda voluntária, além das funcionalidades de pedido de socorro em caso de emergência que podem ser direcionadas às autoridades de saúde e segurança pública do DF ou à segurança da universidade em casos de situação de risco nas dependências do campus.
+                    O projeto SOS-UnB é uma iniciativa do Laboratório UIoT - Universal Internet of Things (ENE/FT/UnB), coordenado pelo professor Rafael Timóteo. A aplicação dispõe de funcionalidades para auxiliar a comunidade acadêmica no período de isolamento social com serviços como acesso direto a canais com informações confiáveis a respeito do desenvolvimento do Covid-19, a obteção de diversos tipos de ajuda voluntária, além das funcionalidades de pedido de socorro em caso de emergência que podem ser direcionadas às autoridades de saúde e segurança pública do DF ou à segurança da universidade em casos de situação de risco nas dependências do campus.
                 
                 </p>
                  
