@@ -1,66 +1,67 @@
-import React, { useState } from "react";
-import classNames from "classnames";
-import { SectionProps } from "../../utils/SectionProps";
-import ButtonGroup from "../elements/ButtonGroup";
-import Button from "../elements/Button";
-import Image from "../elements/Image";
-import Modal from "../elements/Modal";
+import React, { useState } from 'react';
+import classNames from 'classnames';
+import { SectionProps } from '../../utils/SectionProps';
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
+import Image from '../elements/Image';
+import Modal from '../elements/Modal';
 
 const propTypes = {
-    ...SectionProps.types,
-};
+  ...SectionProps.types
+}
 
 const defaultProps = {
-    ...SectionProps.defaults,
-};
+  ...SectionProps.defaults
+}
 
 const Hero = ({
-    className,
-    topOuterDivider,
-    bottomOuterDivider,
-    topDivider,
-    bottomDivider,
-    hasBgColor,
-    invertColor,
-    ...props
+  className,
+  topOuterDivider,
+  bottomOuterDivider,
+  topDivider,
+  bottomDivider,
+  hasBgColor,
+  invertColor,
+  ...props
 }) => {
-    const [videoModalActive, setVideomodalactive] = useState(false);
-    const [EquipeModalActive, setEquipemodalactive] = useState(false);
 
-    const openModal = (e) => {
-        e.preventDefault();
-        setVideomodalactive(true);
-    };
+  const [videoModalActive, setVideomodalactive] = useState(false);
+  const [EquipeModalActive, setEquipemodalactive] = useState(false);
 
-    const closeModal = (e) => {
-        e.preventDefault();
-        setVideomodalactive(false);
-    };
+  const openModal = (e) => {
+    e.preventDefault();
+    setVideomodalactive(true);
+  }
 
-    const openEquipeModal = (e) => {
-        e.preventDefault();
-        setEquipemodalactive(true);
-    };
+  const closeModal = (e) => {
+    e.preventDefault();
+    setVideomodalactive(false);
+  } 
+  
+  const openEquipeModal = (e) => {
+    e.preventDefault();
+    setEquipemodalactive(true);
+  }
 
-    const closeEquipeModal = (e) => {
-        e.preventDefault();
-        setEquipemodalactive(false);
-    };
+  const closeEquipeModal = (e) => {
+    e.preventDefault();
+    setEquipemodalactive(false);
+  } 
 
-    const outerClasses = classNames(
-        "hero section center-content",
-        topOuterDivider && "has-top-divider",
-        bottomOuterDivider && "has-bottom-divider",
-        hasBgColor && "has-bg-color",
-        invertColor && "invert-color",
-        className
-    );
+  const outerClasses = classNames(
+    'hero section center-content',
+    topOuterDivider && 'has-top-divider',
+    bottomOuterDivider && 'has-bottom-divider',
+    hasBgColor && 'has-bg-color',
+    invertColor && 'invert-color',
+    className
+  );
 
-    const innerClasses = classNames(
-        "hero-inner section-inner",
-        topDivider && "has-top-divider",
-        bottomDivider && "has-bottom-divider"
-    );
+  const innerClasses = classNames(
+    'hero-inner section-inner',
+    topDivider && 'has-top-divider',
+    bottomDivider && 'has-bottom-divider'
+  );
 
   return (
     <section
@@ -88,9 +89,39 @@ const Hero = ({
                 </ButtonGroup>
               </div>
             </div>
-        </section>
-    );
-};
+          </div>
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+            <a
+              data-video="./../../assets/images/video-placeholder.jpg"
+              href="#0"
+              aria-controls="video-modal"
+              onClick={openModal}
+            >
+              <Image
+                className="has-shadow"
+                src={require('./../../assets/images/background.png')}
+                alt="Hero"
+                width={896}
+                height={504} />
+            </a>
+          </div>
+          <Modal
+            id="video-modal"
+            show={videoModalActive}
+            handleClose={closeModal}
+            video="'./../../assets/images/Materia-Jornal-DF2.mp4"
+            videoTag="iframe" />
+          <Modal
+            id="equipe-modal"
+            show={EquipeModalActive}
+            handleClose={closeEquipeModal}
+            video="'./../../assets/images/Materia-Jornal-DF2.mp4"
+            videoTag="iframe" />
+        </div>
+      </div>
+    </section>
+  );
+}
 
 Hero.propTypes = propTypes;
 Hero.defaultProps = defaultProps;
